@@ -1,0 +1,131 @@
+/* 
+    Document   : estilos
+    Created on : 1/04/2013, 02:44:06 PM
+    Author     : John Arley Cano Salinas
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+    font-family: Helvetica;
+    background: #C8D7DC url(../img/fondo.jpg) repeat-x top center;
+}
+
+h1{
+    text-align: center; 
+}
+
+footer{
+    text-align: center;
+    padding-left: 30px;
+}
+
+.pie{
+    color: blue;
+}
+
+input[type="text"], [type="password"]{
+    border: 1px solid gray;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 5px;
+    color: #868484;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    height: 30px;
+    
+    box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+}
+
+input[type="text"]:hover, [type="password"]:hover{
+    border: 1px solid blue;
+    
+    box-shadow: 0 6px 12px rgba(0,0,0,.25);
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.25);
+    -moz-box-shadow: 0 6px 12px rgba(0,0,0,.25);
+}
+
+input[type="submit"]{
+    border: 1px solid #dedede;
+    border-radius: 3px;
+    color: #555;
+    display: inline-block;
+    font: bold 12px/12px HelveticaNeue, Arial;
+    padding: 8px 11px;
+    text-decoration: none;
+    height: 40px;
+    
+    box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+}
+
+input[type="submit"]:hover{
+    box-shadow: 0 6px 12px rgba(0,0,0,.25);
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.25);
+    -moz-box-shadow: 0 6px 12px rgba(0,0,0,.25);
+}
+
+section{
+    text-align: center;
+}
+
+#imagen_aplicacion{
+    font-size: 16px;
+    background: #FFFFFF;
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+    padding: 1em;
+    margin: 0.5em;
+    display: inline-table;
+    
+    box-shadow: 0 6px 12px rgba(0,0,0,.25);
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.25);
+    -moz-box-shadow: 0 6px 12px rgba(0,0,0,.25);
+}
+
+.info, .exito, .alerta, .error {
+    font-size: 0.8em;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    font-weight:bold;
+    box-shadow: 0 6px 12px rgba(0,0,0,.25);
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.25);
+    -moz-box-shadow: 0 6px 12px rgba(0,0,0,.25);
+}
+
+.salir{
+    font-weight: bold;
+    margin: -10px;
+    border: none;
+    width: 100px;
+    height: 25px;
+    color: #00529B;
+    background-color: #BDE5F8;
+    cursor: hand;
+    
+    box-shadow: 0 6px 12px rgba(0,0,0,.25);
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.25);
+    -moz-box-shadow: 0 6px 12px rgba(0,0,0,.25);
+}
+
+.info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.exito {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.alerta {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+
+.error{
+    color: #D8000C;
+    background-color: #FFBABA;
+}
